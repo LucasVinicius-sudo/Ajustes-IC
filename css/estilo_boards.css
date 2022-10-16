@@ -1,0 +1,22 @@
+board_cabecalho {
+    border: 2px solid rgba(0,0,0,1);
+}
+
+board_disciplinas {
+    border: 2px solid rgba(0,0,0,1);
+}
+
+user_image {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+user_name {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
