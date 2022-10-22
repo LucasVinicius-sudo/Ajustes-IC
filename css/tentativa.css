@@ -1,0 +1,155 @@
+body
+{
+    background-color: #d9d9d9;
+    width: auto;
+    height: auto;
+}
+
+
+.nav
+{
+background-color: #495796;
+position: absolute;
+width: 1149px;
+height: 100px;
+left: 165px;
+top: 0px;
+}
+
+#logo_ic
+{
+    position: absolute;
+    left: -50px;
+}
+
+#ajustes_name
+{
+position: absolute;
+width: 403px;
+height: 85px;
+left: auto;
+top: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 85px;
+color: #FFFFFF;
+
+}
+
+.login
+{
+
+box-sizing: border-box;
+position: absolute;
+width: 700px;
+height: 340px;
+left: 310px;
+top: 200px;
+background: #FFFFFF;
+border: 5px solid #000000;
+border-radius: 10px;
+
+}
+
+#login_text
+{
+position: absolute;
+width: 117px;
+height: 54px;
+left: 50px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 54px;
+
+color: #000000;
+}
+
+.retangulo_login
+{
+box-sizing: border-box;
+position: absolute;
+width: 460px;
+height: 67px;
+left: 170px;
+top: 70px;
+background: #D9D9D9;
+border: 1px solid #000000;
+border-radius: 10px;
+font-size: 40px;
+}
+
+#forget
+{
+position: absolute;
+width: 311px;
+height: 36px;
+left: 10px;
+top: 290px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+text-decoration: underline;
+}
+
+#btn_enter
+{
+position: absolute;
+width: 300px;
+height: 44px;
+left: 380px;
+top: 280px;
+background: #3894C8;
+border-radius: 10px;
+}
+
+#login_enter
+{
+position: absolute;
+width: 115px;
+height: 48px;
+left: 90px;
+top: -5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.new_user
+{
+box-sizing: border-box;
+position: absolute;
+width: 683px;
+height: 107px;
+left: 320px;
+top: 550px;
+background: #42B72D;
+border: 1px solid #000000;
+border-radius: 10px;
+}
+
+#new_user_text
+{
+position: absolute;
+width: 498px;
+height: 78px;
+left: 90px;
+top: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+}
