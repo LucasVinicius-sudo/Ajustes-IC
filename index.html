@@ -1,38 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br"></html>
-<html>
-    <head>
-        <meta charset="utf-8"></meta>
-        <!-- <script> src="homepage.js"</script> -->
-        <title>Ajuste de Vagas no IC</title>
-        <link rel="stylesheet" href="css/estilo.css">
-    </head>
-    <body>
-        <header>
-            <img src="src/logo-ic.png" width="50" height="50">
-        </header>
-        <titleHeader>
-            <textTitle><h1>Ajuste de Vagas no IC</h1></text_title>
-        </titleHeader>
-        <center>
-            <br><br><br><br>
-            <form id="form_user" method="post" action="php/validator.php">
-                <camp>
-                    E-mail institucional:
-                    <!-- <label for="nome">Nome</label> -->
-                    <center><input type="email" name="email_input" maxlength="50" placeholder="Digite seu e-mail institucional"></center>
-                </camp>
-                <camp>
-                    Senha:
-                    <center><input type="password" name="pw_input" maxlenght="10" placeholder="Digite a senha deste e-mail"></center>
-                </camp>
-                <br>
-                <buttonSubmit><input type="submit" value="Login"></buttonSubmit>
-            </form>
-            <!-- <br> -->
-            <!-- <button type="button" form="form_user" >Login</button> -->
-            
-        </center>
-        
-    </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuste de Vagas no IC</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo_copia.css">
+</head>
+<body>
+    <nav  class="navbar navbar-dark bg-primary">
+        <span class="navbar-brand mb-0 h1">AJUSTES IC</span>
+      </nav>
+    <div class="container mt-5 ">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6" id="main">
+                <div class="card px-5 py-5" id="form1">
+                    <center><form class="form-data" v-if="!submitted" method="post" action="php/validator.php">
+                        <div class="forms-inputs mb-4"> <span>LOGIN</span> <input autocomplete="off" type="email" name="email" placeholder="Digite seu e-mail" v-model="email" v-bind:class="{'form-control':true, 'is-invalid' : !validEmail(email) && emailBlured}" v-on:blur="emailBlured = true">
+                            <div class="invalid-feedback">A valid email is required!</div>
+                        </div>
+                        <div class="forms-inputs mb-4"> <span>SENHA</span> <input autocomplete="off" type="password" name="password" v-model="password" v-bind:class="{'form-control':true, 'is-invalid' : !validPassword(password) && passwordBlured}" v-on:blur="passwordBlured = true">
+                            <div class="invalid-feedback">Password must be 8 character!</div>
+                        </div>
+                        <div class="mb-1"> <button v-on:click.stop.prevent="submit" class="btn btn-primary" name="btn_login">Login</button> </div>
+                    </form></center>
+                    <div class="mb-1"> <button v-on:click.stop.prevent="submit" class="btn btn-secondary" name="btn_forget" onclick="location.href='recuperation_pw.html'">Esqueci minha Senha</button> </div>
+                </div>
+                <buttonNew>
+                    <button class="btn btn-success" type="submit" id="btn_new" name="btn_new" onclick="location.href='New_User_copia.html'">Nova(o) por aqui?
+                        Clique aqui para criar uma conta.
+                    </button>
+                </buttonNew>
+                
+            </div>
+        </div>
+    </div>
+    <!--BASE DO PROJETO AQUI : https://bbbootstrap.com/snippets/bootstrap-5-validation-login-form-using-vue-js-55312173-->
+</body>
 </html>
