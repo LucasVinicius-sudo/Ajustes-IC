@@ -7,13 +7,17 @@
     <title>Novo Usuário</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/forget.css">
+    <link rel="stylesheet" href="css/estilo_copia.css">
     <script type="text/javascript" src="forget.js"></script>
 </head>
 <body>
-    <img src="evento-55654-logo_organizador.png"  width="250" height="100" id="logo_ic">
-    <nav>
-        <div class="nav"><p id="ajustes_name">AJUSTES IC</p></div>
-    </nav>
+    <!-- <img src="evento-55654-logo_organizador.png"  width="250" height="100" id="logo_ic"> -->
+    <nav class="navbar navbar-dark bg-primary">
+        <span class="navbar-brand mb-0 h1">
+            <img src="src/logo-ic.png" width="50" height="50">
+            AJUSTES IC
+        </span>
+      </nav>
 
     <div class="name_start">
         <p id="text">Seus Dados</p>
@@ -30,9 +34,9 @@
         <input type="text" class="grey_rec" style="top:420px">
         <p id="nome" style="top:490px ;">Nova Senha:</p>
         <input type="text" class="grey_rec" style="top:540px">
-        <p id="nome" style="top:620px ;">Confirmar</p>
-        <p id="nome" style="top:620px ; left: 180px;">Nova</p>
-        <p id="nome" style="top:620px ;left: 280px;">Senha:</p>
+        <p id="nome" style="top:620px ;">Confirmar nova senha:</p>
+        <!-- <p id="nome" style="top:620px ; left: 180px;">Nova</p>
+        <p id="nome" style="top:620px ;left: 280px;">Senha:</p> -->
         <input type="text" class="grey_rec" style="top:680px">
         <button id="btn_confirmar" onclick="confirmar()"><p id="confirmar">CONFIRMAR</p></button>    
     
