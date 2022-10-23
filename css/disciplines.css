@@ -121,6 +121,32 @@ border: 1px solid #878787;
 transform: rotate(90deg);
 }
 
+.menu_block {
+    display:block;
+    
+}
+
+.new_disciplina {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.btn-custon {
+    background-color: #495796;
+    color: rgb(255,255,255);
+    padding: 1px 10px 3px 2px;
+    border-radius: 50px;
+    /* margin: auto; */
+}
+
+.btn-icon{
+    /* color: #495796; */
+    /* background-color: #ffffff; */
+    padding: 8px;
+    /* margin: 2px; */
+    /* border-radius: 50px; */
+}
 
 .barra_nova
 {
