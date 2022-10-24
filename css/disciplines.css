@@ -123,7 +123,30 @@ transform: rotate(90deg);
 
 .menu_block {
     display:block;
-    
+    border: 1px solid #878787;
+}
+
+.block_right{
+    margin: 1px;
+    padding: 1px;
+    /* padding: -1px -1px; */
+    border: 1px solid #878787;
+    /* width: 540px; */
+    display: inline-block;
+    align-items: right;
+    justify-content: center;
+}
+
+.block_right_name{
+    margin: 1px;
+    padding: 1px;
+    margin-right: 100px;
+    /* padding: -1px -1px; */
+    border: 1px solid #878787;
+    /* width: 540px; */
+    display: inline-block;
+    align-items: right;
+    justify-content: center;
 }
 
 .new_disciplina {
