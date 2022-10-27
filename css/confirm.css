@@ -1,0 +1,155 @@
+.pop_up
+{
+
+    position: absolute;
+    width: 1000px;
+    height: 798px;
+    left: 90px;
+    top: 113px;
+    border: 1px solid black;
+    background: #d9d9d9;
+
+}
+
+.rec_form
+{
+    position: absolute;
+    width: 900px;
+    height: 73px;
+    left: 20px;
+    top: 30px;
+    
+    background: #BABABA;
+}
+
+
+#text_form
+{
+
+position: absolute;
+width: 462px;
+height: 39px;
+top: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+color: #000000;
+}
+
+.rec_name
+{
+
+position: absolute;
+width: 705px;
+height: 73px;
+left: 20px;
+top: 150px;
+background: #BABABA;
+
+}
+
+.rec_mac
+{
+
+position: absolute;
+width: 705px;
+height: 73px;
+left: 20px;
+top: 280px;
+background: #BABABA;
+
+}
+
+.rec_info
+{
+
+position: absolute;
+width: 705px;
+height: 73px;
+left: 20px;
+top: 400px;
+background: #BABABA;
+
+}
+
+#text_name
+{
+    
+position: absolute;
+width: 249px;
+height: 39px;
+left: 20px;
+top: 110px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+
+}
+
+#text_matricula
+{
+    
+position: absolute;
+width: 249px;
+height: 39px;
+left: 20px;
+top: 240px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+
+}
+
+#text_info
+{
+    position: absolute;
+width: 249px;
+height: 39px;
+left: 20px;
+top: 360px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+}
+
+.gerar
+{
+
+    position: absolute;
+    width: 411px;
+    height: 55px;
+    left: 570px;
+    top: 700px;
+    
+    background: #3894C8;
+
+}
+
+#gerar_text
+{
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+}
