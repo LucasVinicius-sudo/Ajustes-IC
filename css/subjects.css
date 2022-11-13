@@ -31,20 +31,18 @@ body
     right: 50px;
 } */
 
-#ajustes_name
-{
-position: absolute;
-width: 403px;
-height: 85px;
-left: auto;
-top: 30px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 85px;
-color: #FFFFFF;
-
+#ajustes_name{
+    position: absolute;
+    width: 603px;
+    height: 85px;
+    left: auto;
+    top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
 }
 
 .btn_logo_user{
@@ -55,9 +53,9 @@ color: #FFFFFF;
     overflow: hidden;
 
     position: right;
-    /* display: flex;
+    display: flex;
     justify-content: right;
-    align-items: right; */
+    align-items: right;
 }
 
 .main_section{
@@ -85,13 +83,18 @@ color: #FFFFFF;
 }
 
 .right_camp{
-    margin-left: 700px;
+    margin-left: 600px;
     position: right;   
     display: inline-flex;
     justify-content: right;
-    align-items: right;
+    align-items: center;
 }
 
 .n_vagas{
     margin-right: 100px;
+}
+
+.text_disc{
+    width: 180px;
+    /* height: 25px; */
 }
