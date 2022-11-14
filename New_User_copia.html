@@ -11,67 +11,67 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        <span class="navbar-brand mb-0 h1">
-            <img src="src/logo-ic.png" width="50" height="50">
-            AJUSTES IC
-        </span>
-      </nav>
-        <br>
+    <img src="src/logo-ic.png"  width="150" height="150" id="logo_ic">
+    <nav class="nav">
+        <div>
+            <p id="ajustes_name">AJUSTES IC</p>
+        </div>
+     </nav>
+     <br>
           <div class="col w-50 p-1" style="background-color:white;border: 2px ridge black; position: absolute;left: 350px;" >
             SEUS DADOS
           </div>
         <br>
 
         
-              <div class="con" style="height: 500px;width: 700px;background-color: white;">
+              <div class="con" style="height: 1000px;width: 700px;background-color: white;">
                   <form class="needs-validation" novalidate="">
                       <div class="mb-3 elements">
                           <label for="email">NOME COMPLETO: </label>
-                          <input type="email" class="form-control bg-secondary" id="">
+                          <input type="text" class="form-control bg-secondary" id="">
                           <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
                       </div>
                       <div class="mb-3 elements">
                         <label for="email" id="periodo">PERIODO:</label>
-                        <input type="email" class="form-control bg-secondary" id="periodo" style="width: 650px;">
+                        <input type="number" class="form-control bg-secondary" id="periodo" style="width: 650px;">
                         <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
                     </div>
                     <div class="mb-3 elements">
                         <label for="email" id="periodo">MATRICULA:</label>
-                        <input type="email" class="form-control bg-secondary" id="periodo" style="width: 650px;">
+                        <input type="number" class="form-control bg-secondary" id="periodo" style="width: 650px;">
                         <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
                     </div>
                     <div class="mb-3 elements">
                         <label for="email" id="periodo">CURSO:</label>
-                        <input type="email" class="form-control bg-secondary" id="periodo" style="width: 650px;" >
+                        <input type="text" class="form-control bg-secondary" id="periodo" style="width: 650px;" >
                         <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
                     </div>
                       <div class="mb-3 elements">
                           <label for="address" id="periodo">NOVA SENHA:</label>
-                          <input type="text" class="form-control bg-secondary" id="periodo" style="width: 650px;" >
+                          <input type="password" class="form-control bg-secondary" id="periodo" style="width: 650px;" >
                           <div class="invalid-feedback"> Please enter your shipping address. </div>
                       </div>
                       <div class="mb-3 elements">
                           <label for="address2" id="periodo">CONFIRMAR NOVA SENHA:</label>
-                          <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                          <input type="password" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
                       </div>
 
                     <!-- Partes relativas as disciplinas já matriculadas -->
                     <div class="mb-3 elements">
-                        <label for="address2" id="periodo">Selecione até dez disciplinas que esta matriculada(o):</label>
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
-                        <input type="text" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <label for="address2" id="periodo">Preencha com o código das disciplinas que esta matriculada(o):</label>
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
+                        <input type="number" class="form-control bg-secondary"  id="periodo" style="width: 650px;"  >
                     </div>
-                        <a href="http://subjects.html"><input type="submit" value = "Salvar informações"></a>
-                    
+                    <button type="submit">Salvar</button>
+                    <a href="subjects.html">Avançar</a>
                   </form>
             </div>
           

@@ -83,7 +83,7 @@ body
 }
 
 .right_camp{
-    margin-left: 600px;
+    margin-left: 415px;
     position: right;   
     display: inline-flex;
     justify-content: right;
@@ -91,7 +91,7 @@ body
 }
 
 .n_vagas{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .text_disc{
