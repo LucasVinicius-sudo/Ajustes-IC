@@ -98,3 +98,11 @@ body
     width: 180px;
     /* height: 25px; */
 }
+
+.btn_add_disc{
+    background-color: rgba(205,205,205,1);
+    border: 2px solid rgba(150,150,150,1);
+    border-radius: 2%;
+    height: 150px;
+    width: 180px;
+}

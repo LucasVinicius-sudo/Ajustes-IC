@@ -12,7 +12,7 @@
     $valid1 = "discente@ic.ufal.br";
     // echo "email" . $email;
     if (strcmp($email, $valid)==0){
-        header("Location: ../disciplines.html");
+        header("Location: ../admins/disciplines.html");
     }
     else if (strcmp($email, $valid1)==0){
         header("Location: ../subjects.html");
