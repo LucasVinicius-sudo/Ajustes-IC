@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar disciplina</title>
+    <link rel="stylesheet" href="../css/subjects.css">
+    <link rel="stylesheet" href="../css/disciplines_admin.css">
+</head>
+
+<body>
+    <img src="../src/logo-ic.png"  width="150" height="150" id="logo_ic">
+    <nav class="nav">
+        <div>
+            <p id="ajustes_name">AJUSTES IC</p>
+        </div>
+     </nav>
+     <br>
+    <center><fieldset class="form_add_disc">
+        <center><form action="" method="post">
+            <p>Nome da disciplina:</p>
+            <input type="text" name="nome" value="" required>
+            <p>Código:</p>
+            <input type="text" name="code" value="" required>
+            <p>Horário de início:</p>
+            <input type="datetime-local" name="date_init" value="" required>
+            <p>Horário de fim:</p>
+            <input type="datetime-local" name="date_end" value="" required>
+            <p>Vagas disponíveis:</p>
+            <input type="number" name="n_vagas" value="" required>
+            <p>Nome da(o) professora(or):</p>
+            <input type="text" name="n_profa" value="" required>
+            <br>
+            <br>
+            <button type="submit" onclick="location.href='../admins/disciplines.html'">Cadastrar</button>
+        </form></center>
+    </fieldset></center>
+     
+          
+</body>
+</html>
