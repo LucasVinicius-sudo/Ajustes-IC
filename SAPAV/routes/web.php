@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', "App\Http\Controllers\web\HomeController@home");
-Route::post('/auth', "App\Http\Controllers\web\HomeController@authenticate")->name("auth_data");
+Route::post('/', "App\Http\Controllers\web\HomeController@authenticate")->name("auth_data");
