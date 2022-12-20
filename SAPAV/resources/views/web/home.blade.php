@@ -33,12 +33,12 @@
         <input type="email" class="retangulo_login" name="email">
         <p id="login_text" style="top:180px;">Senha</p>
         <input type="password" class="retangulo_login" name="password" style="top:180px">
-        <a href="{{url('assets/recuperation_pw.blade.html')}}" target="_blank"><p id="forget">Esqueci Minha Senha</p></a>
+        <a href="{{url('assets/recuperation_pw.html')}}" target="_blank"><p id="forget">Esqueci Minha Senha</p></a>
         <button type="submit" id="btn_enter"><p id="login_enter">Entrar</p></button>
     </form>
   <!--Seção do Novo Usuário-->
     <section>
-           <a  class="new_user" href="New_User_copia.html" target="_blank"><button id="new_user_text" style="background-color:#42B72D; border:none!important;">Nova(o) por aqui? Clique aqui para criar uma conta.</button> </a> 
+           <a  class="new_user" href="{{url('assets/new_user_copia.html')}}" target="_blank"><button id="new_user_text" style="background-color:#42B72D; border:none!important;">Nova(o) por aqui? Clique aqui para criar uma conta.</button> </a> 
     </section>
 
     

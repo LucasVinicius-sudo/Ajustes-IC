@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajuste de Vagas no IC</title>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="{{url('css/subjects.css')}}">
-    <link rel="stylesheet" href="{{url('css/tentativa.css')}}">
+    <link rel="stylesheet" href="{{url('assets/css/subjects.css')}}">
+    <link rel="stylesheet" href="{{url('assets/css/tentativa.css')}}">
 </head>
 <body>
-    <img src="{{url('src/logo-ic.png')}}"  width="150" height="150" id="logo_ic">
+    <img src="{{url('assets/src/logo-ic.png')}}"  width="150" height="150" id="logo_ic">
     <nav class="nav">
         <div>
             <p id="ajustes_name">AJUSTES IC</p>
         </div>
       </nav>
     <button class="btn_logo_user" type="button" name="logo_avatar" onclick="location.href='profile_discentes.html'">
-        <img src="{{url('src/logo_user.png')}}" width="50" height="50">
+        <img src="{{url('assests/src/logo_user.png')}}" width="50" height="50">
     </button>
 
     <!--DIV das disciplinas-->

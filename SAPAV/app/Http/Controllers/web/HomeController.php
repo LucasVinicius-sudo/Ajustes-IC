@@ -22,15 +22,15 @@ class HomeController extends Controller
             "password.required"=>"Senha é obrigatória."
         ]);
 
-        if (Auth::attempt($credentials)) {
+        if (Auth::attempt($credentials)==true) {
             $request->session()->regenerate();
 
-            return redirect()->intended('web.subjects');
-            // return redirect()->view("web.subjects");
+            // return redirect()->intended('web.subjects');
+            return redirect()->view("web.subjects");
         }
 
         return back()->withErrors([
             'email' => 'As credenciais não estão nos registros.',
         ])->onlyInput('email');
-    }   
+    }
 }
