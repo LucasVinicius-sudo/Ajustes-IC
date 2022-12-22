@@ -1,0 +1,2 @@
+USE SAPAV_DB;
+DROP TABLE SAPAV_DB.servers;

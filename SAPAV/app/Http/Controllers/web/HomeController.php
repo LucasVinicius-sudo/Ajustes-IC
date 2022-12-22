@@ -22,11 +22,11 @@ class HomeController extends Controller
             "password.required"=>"Senha é obrigatória."
         ]);
 
-        if (Auth::attempt($credentials)==true) {
+        if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
 
-            // return redirect()->intended('web.subjects');
-            return redirect()->view("web.subjects");
+            // return redirect()->intended('web.disciplines');
+            return view("web.admins.disciplines");
         }
 
         return back()->withErrors([
