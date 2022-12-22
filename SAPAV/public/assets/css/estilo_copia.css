@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    float: left;
+}
+
+body{
+    background: #d9d9d9;
+}
+
+.forget{
+    color:blue;
+}
+
+.forget:hover{
+    color: aliceblue;
+    background-color: #000000;
+}
+
+.form_user{
+    width:700px;
+    height:700px;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+buttonSubmit {
+    color: white;
+    background-color: blue;
+}
+
+buttonSubmit:hover{
+    color: rgb(200,200,255,1);
+}
+
+buttonNew {
+    color: green;
+}
+
+#main
+{
+    background-color: white;
+    border:5px solid #000000;
+    border-radius: 10px;
+}
+
+#btn_new
+{
+    position: relative;
+    left: 70px;
+}
+
+#navbar
+{
+    background-color: blue;
+}
